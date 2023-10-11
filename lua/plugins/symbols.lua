@@ -6,6 +6,7 @@ return {
       auto_preview = true,
       autofold_depth = 1,
       show_relative_numbers = true,
+      width = 15,
     },
   },
 }
