@@ -12,10 +12,6 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import any extras modules here
-    -- conform
-    { import = "lazyvim.plugins.extras.formatting.conform" },
-    -- nvim-lint
-    { import = "lazyvim.plugins.extras.linting.nvim-lint" },
     -- json
     { import = "lazyvim.plugins.extras.lang.json" },
     -- typescript
