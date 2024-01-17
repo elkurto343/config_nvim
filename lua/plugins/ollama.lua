@@ -4,8 +4,8 @@ return {
     { "<leader>cg", ":Gen<CR>", desc = "Ollama Generate", mode = { "n", "v" } },
   },
   config = function()
-    require("gen").model = "codellama"
-    -- require("gen").model = "orca-mini:3b"
+    -- require("gen").model = "codellama"
+    require("gen").model = "orca-mini:3b"
     -- require("gen").model = "mistral"
     -- require("gen").container = "ollama"
     -- require("gen").prompts["Elaborate_Text"] = {
